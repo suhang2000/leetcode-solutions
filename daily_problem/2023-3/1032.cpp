@@ -5,9 +5,11 @@ https://leetcode.cn/problems/stream-of-characters/description/
 
 #include<vector>
 #include<string>
+#include<cstring>
 
 using std::vector;
 using std::string;
+using std::memset;
 
 // version 1
 // trie by array
@@ -98,7 +100,7 @@ public:
     }
 };
 
-class StreamChecker {
+class StreamChecker2 {
 private:
     Trie* trie;
     string s;
